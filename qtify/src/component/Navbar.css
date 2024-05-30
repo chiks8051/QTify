@@ -33,4 +33,5 @@
   
   .feedback-button{
       color: var(--color-primary);
+      font-family: Poppins;
   }

@@ -20,7 +20,7 @@ const Navbar = () => {
           <button className="search-button">
             <img src={Search} alt="search" />
           </button>
-        </form>
+        </form> 
 
         <button className="feedback-button btn btn-dark">Give Feedback</button>
       </nav>
