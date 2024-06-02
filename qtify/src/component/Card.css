@@ -1,0 +1,42 @@
+.card {
+    width: 159px;
+    height: 232px;
+    background-color: yellow !important; /* Use !important for debugging */
+  }
+  
+  .action {
+    padding: 1px !important; /* Use !important for debugging */
+  }
+  
+  .cardImg {
+    height: 170px !important;
+    border-radius: 10px 10px 0px 0px !important;
+  }
+  
+  .chips {
+    background-color: black !important;
+    color: var(--color-white) !important;
+    font-family: Poppins !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    line-height: 15px !important;
+    text-align: left !important;
+  }
+  
+  .cardContent {
+    height: 35px !important;
+    background-color: white !important;
+    padding: 1px !important;
+    border-radius: 0px 0px 10px 10px !important;
+  }
+  
+  .title {
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
+    text-align: left !important;
+  }
+  

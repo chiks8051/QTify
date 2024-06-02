@@ -3,6 +3,10 @@
   --color-black:  #000000;
   --color-white:  #FFFFFF;
 }
+body {
+  background-color: black;
+  color: white;
+}
 .App {
   text-align: center;
 }

@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
-import Hero from './component/Hero';
+import Homapage from './component/Homepage';
+import CardHolder from './component/Card';
+
+
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Hero />
+    <Homapage />
+    {/* <CardHolder/> */}
     </>
   );
 }
