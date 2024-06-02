@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 
 
 const CardHolder = ({ album }) => {
+    
   return (
     <>
       <Card className={styles.card}>
@@ -23,7 +24,6 @@ const CardHolder = ({ album }) => {
             alt={album.title}
           />
           <CardContent className={styles.cardContent}>
-
             <Chip
               className={styles.chips}
               label={`${album.follows} Followers`}
