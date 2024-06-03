@@ -1,11 +1,11 @@
 .card {
     width: 159px;
     height: 232px;
-    background-color: yellow !important; /* Use !important for debugging */
+    background-color: yellow !important; 
   }
   
   .action {
-    padding: 1px !important; /* Use !important for debugging */
+    padding: 1px !important; 
   }
   
   .cardImg {

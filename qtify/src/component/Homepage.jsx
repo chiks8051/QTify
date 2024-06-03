@@ -6,8 +6,10 @@ const Homapage = () => {
   return (
     <>
       <Hero />
-      <Section title="Top Albums" endpoint="https://qtify-backend-labs.crio.do/albums/top" />
-      <Section title="New Albums" endpoint="https://qtify-backend-labs.crio.do/albums/new" />
+      <Section title="Top Albums" endpoint="https://qtify-backend-labs.crio.do/albums/top" type='album'/>
+      <Section title="New Albums" endpoint="https://qtify-backend-labs.crio.do/albums/new" type='album'/>
+      <Section title="Songs" endpoint="https://qtify-backend-labs.crio.do/songs" type='songs'/>
+
     </>
   );
 };
