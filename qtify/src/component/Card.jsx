@@ -14,7 +14,7 @@ const CardHolder = ({ album, type }) => {
       <Card className={styles.card}>
         {type === "album" ? (
           <CardActionArea className={styles.action}>
-            <Tooltip title={`${album.songs.length}`} arrow placement="top">
+            <Tooltip title={`${album.songs.length} Songs`} arrow placement="top">
               <CardMedia
                 className={styles.cardImg}
                 component="img"
